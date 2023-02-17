@@ -4,6 +4,134 @@
     "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBookWeb/BulkyBookWeb.csproj": {}
   },
   "projects": {
+    "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBook.DatAcess/BulkyBook.DatAcess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBook.DatAcess/BulkyBook.DatAcess.csproj",
+        "projectName": "BulkyBook.DatAcess",
+        "projectPath": "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBook.DatAcess/BulkyBook.DatAcess.csproj",
+        "packagesPath": "/Users/mohdsalman/.nuget/packages/",
+        "outputPath": "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBook.DatAcess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mohdsalman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://vistaprint.jfrog.io/vistaprint/api/nuget/nuget": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBook.Models/BulkyBook.Models.csproj": {
+                "projectPath": "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBook.Models/BulkyBook.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBook.Models/BulkyBook.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBook.Models/BulkyBook.Models.csproj",
+        "projectName": "BulkyBook.Models",
+        "projectPath": "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBook.Models/BulkyBook.Models.csproj",
+        "packagesPath": "/Users/mohdsalman/.nuget/packages/",
+        "outputPath": "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBook.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mohdsalman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://vistaprint.jfrog.io/vistaprint/api/nuget/nuget": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBookWeb/BulkyBookWeb.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,7 +154,14 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBook.DatAcess/BulkyBook.DatAcess.csproj": {
+                "projectPath": "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBook.DatAcess/BulkyBook.DatAcess.csproj"
+              },
+              "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBook.Models/BulkyBook.Models.csproj": {
+                "projectPath": "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBook.Models/BulkyBook.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
