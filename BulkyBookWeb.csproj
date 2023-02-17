@@ -96,9 +96,4 @@
       <None Remove="wwwroot\**" />
     </ItemGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\BulkyBook.DatAcess\BulkyBook.DatAcess.csproj" />
-      <ProjectReference Include="..\BulkyBook.Models\BulkyBook.Models.csproj" />
-    </ItemGroup>
-
 </Project>

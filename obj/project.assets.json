@@ -1120,31 +1120,6 @@
             "rid": "win"
           }
         }
-      },
-      "BulkyBook.DatAcess/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "BulkyBook.Models": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "7.0.3",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3"
-        },
-        "compile": {
-          "bin/placeholder/BulkyBook.DatAcess.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BulkyBook.DatAcess.dll": {}
-        }
-      },
-      "BulkyBook.Models/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/BulkyBook.Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BulkyBook.Models.dll": {}
-        }
       }
     }
   },
@@ -3440,22 +3415,10 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "BulkyBook.DatAcess/1.0.0": {
-      "type": "project",
-      "path": "../BulkyBook.DatAcess/BulkyBook.DatAcess.csproj",
-      "msbuildProject": "../BulkyBook.DatAcess/BulkyBook.DatAcess.csproj"
-    },
-    "BulkyBook.Models/1.0.0": {
-      "type": "project",
-      "path": "../BulkyBook.Models/BulkyBook.Models.csproj",
-      "msbuildProject": "../BulkyBook.Models/BulkyBook.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "BulkyBook.DatAcess >= 1.0.0",
-      "BulkyBook.Models >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.3"
@@ -3486,14 +3449,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBook.DatAcess/BulkyBook.DatAcess.csproj": {
-              "projectPath": "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBook.DatAcess/BulkyBook.DatAcess.csproj"
-            },
-            "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBook.Models/BulkyBook.Models.csproj": {
-              "projectPath": "/Users/mohdsalman/BulkyBook/BulkyBook/BulkyBook.Models/BulkyBook.Models.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
